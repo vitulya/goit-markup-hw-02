@@ -6,10 +6,6 @@
     --primery-black-color: #000000;
     --backgrounh-btn:  #F5F4FA;
 }
-*{
-    margin: 0;
-    padding: 0;
-}
 
 body{
     font-family: "Roboto", sans-serif;
@@ -18,6 +14,10 @@ body{
 
 a{
     text-decoration: none;
+}
+
+li{
+    list-style: none;
 }
 
 .button{
@@ -121,20 +121,26 @@ a{
 }
 
 /* Футер */
-.adress{
+.footer{
     background-color: var(--primery-text-color)
 }
-.adress-mapa{
+
+.footer .logo{
+    color: var(--primery-white-color);
+}
+
+.adress{
+    font-style: normal;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
+}
+
+.adress-mapa{  
     color: var(--primery-white-color);
 }
 
 .adress .contact{
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
 
