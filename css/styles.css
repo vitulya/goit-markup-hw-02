@@ -25,9 +25,11 @@ li{
 }
 
 /* Логотип */
-.logo .accent{
-    color: var(--accent-color);  
+
+.logo .accent {
+    color: var(--accent-color);
 }
+
 .logo{
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -47,6 +49,10 @@ li{
 
 .header .link{
     color: var(--primery-grey-color);
+}
+
+.header .active {
+    color: var(--accent-color);
 }
 
 .header .contact{
